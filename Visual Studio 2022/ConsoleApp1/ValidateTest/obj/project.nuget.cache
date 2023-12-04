@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JUO2gSLlJCLqErmeL8EK696i5NOh/I2b2t1Wmvtfo7KIDEDy5CXinhfd068ay/RqG0OtW1YW61Fz1rBa9oJs9g==",
+  "dgSpecHash": "A4dgvhiQFKJxxEoSVwFWuENrJx57PozjNGSqGr7rf42P8LawiETG2FlmgfOo0PZEOvic+x2TWpmhmywxz3XpnA==",
   "success": true,
-  "projectFilePath": "E:\\WindowsGS1\\DAMv\\Mirko Magerov\\DAMv1 - M03 Programacio\\Visual Studio 2022\\ConsoleApp1\\ValidateTest\\ValidateTest.csproj",
+  "projectFilePath": "E:\\WindowsGS1\\DAMv\\Mirko Magerov\\DAMv1_M03_Programacio\\Visual Studio 2022\\ConsoleApp1\\ValidateTest\\ValidateTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prof\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\prof\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

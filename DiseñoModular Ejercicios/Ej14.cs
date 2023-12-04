@@ -2,11 +2,8 @@
 * Author: Miroslav Magerov
 * M03. Programació UF2
 * v1. dd/mm/aa
-* Exercici 12.
+* Exercici 14.
 */
-
-using System.Reflection.Metadata.Ecma335;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Proyecto
 {
@@ -16,15 +13,18 @@ namespace Proyecto
         static void Main(string[] args)
         {
             const string MsgEnterNumber = "Introduce un número: ";
+            const string MsgDigitsNumber = "La cantidad de dígitos que tiene el número es: ";
+            const string MsgOddDigitsSum = "La suma de los dígitos impares es: ";
+            const string MsgEvenDigitsSum = "La suma de los dígitos pares es: ";
 
             int userNumber;
 
             Console.Write(MsgEnterNumber);
             userNumber = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(CalculateDigits(userNumber));
-            Console.WriteLine(SumEvenDigits(userNumber));
-            Console.WriteLine(SumOddDigits(userNumber));
+            Console.WriteLine(MsgDigitsNumber + CalculateDigits(userNumber));
+            Console.WriteLine(MsgOddDigitsSum + SumDigits(userNumber, 0));
+            Console.WriteLine(MsgEvenDigitsSum + SumDigits(userNumber, 1));
         }
 
         // Calcular número dígitos
@@ -43,34 +43,17 @@ namespace Proyecto
             return digits;
         }
 
-        // Sumar dígitos con valor par
-        public static int SumEvenDigits(int number)
+        // Sumar los dígitos dependiendo la posición
+
+        public static int SumDigits(int number, int expectedResult)
         {
             int sumDigits = 0;
 
             do
             {
-                if ((number - (number / 10)) % 2 == 0)
+                if (number % 10 % 2 == expectedResult)
                 {
-                    sumDigits += number - number / 10;
-                }
-                number /= 10;
-
-            } while (number > 0);
-
-            return sumDigits;
-        }
-
-        // Sumar dígitos con valor impar
-        public static int SumOddDigits(int number)
-        {
-            int sumDigits = 0;
-
-            do
-            {
-                if ((number - (number / 10)) % 2 == 1)
-                {
-                    sumDigits += number - number / 10;
+                    sumDigits += number % 10;
                 }
                 number /= 10;
 
