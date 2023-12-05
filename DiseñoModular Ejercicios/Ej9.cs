@@ -33,19 +33,19 @@ namespace Proyecto
 
             Console.WriteLine();
 
-            Console.WriteLine(ParametritzableMethod(userNumber, secondNumber) ? MsgFirstNumberLower : MsgFirstNumberBigger);
+            Console.WriteLine(ValidateNumber(userNumber, secondNumber) ? MsgFirstNumberLower : MsgFirstNumberBigger);
 
             Console.WriteLine();
 
-            Console.WriteLine(ParametritzableMethod(userNumber, secondNumber, thirdNumber) ? MsgFirstNumberBetween : MsgFirstNumberNotBetween);
+            Console.WriteLine(ValidateNumber(userNumber, secondNumber, thirdNumber) ? MsgFirstNumberBetween : MsgFirstNumberNotBetween);
         }
 
-        public static bool ParametritzableMethod(float entryNumber, float validationNumber)
+        public static bool ValidateNumber(float entryNumber, float validationNumber)
         {
             return entryNumber < validationNumber ? true : false;
         }
 
-        public static bool ParametritzableMethod(float entryNumber, float lowerNumber, float biggerNumber)
+        public static bool ValidateNumber(float entryNumber, float lowerNumber, float biggerNumber)
         {
             return entryNumber > lowerNumber && entryNumber < biggerNumber ? true : false;
         }
