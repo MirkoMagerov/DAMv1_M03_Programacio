@@ -14,19 +14,20 @@ namespace Proyecto
         {
             const string MsgEnterTemperatureCº = "Introduce una temperatura en Celsius para pasarlos a Fahrenheit: ";
             const string MsgFinalAnswer = "La temperatura convertida a Fahrenheit es: ";
-            const int MultipliedBy = 9, DividedBy = 5, SumBy = 32;
+
 
             double celsius;
 
             Console.Write(MsgEnterTemperatureCº);
             celsius = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine(MsgFinalAnswer + CelsiusToFahrenheit(celsius, MultipliedBy, DividedBy, SumBy));
+            Console.WriteLine(MsgFinalAnswer + CelsiusToFahrenheit(celsius));
         }
 
-        public static double CelsiusToFahrenheit(double celsius, int multiply, int divide, int sum)
+        public static double CelsiusToFahrenheit(double celsius)
         {
-            return Math.Round(((celsius * multiply / divide) + sum), 2);
+            const int MultipliedBy = 9, DividedBy = 5, SumBy = 32;
+            return Math.Round((celsius * MultipliedBy / DividedBy) + SumBy, 2);
         }
     }
 }
