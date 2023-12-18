@@ -25,7 +25,7 @@ namespace Proyecto
         public static void GetNaturalPart(double number)
         {
             int enterNumber = Convert.ToInt32(Math.Truncate(number));
-            double decimalNumber = Math.Round(number - enterNumber, 3);
+            double decimalNumber = Math.Round(number - Math.Truncate(number), 2);
 
             Console.WriteLine("Número sin parte decimal: " + enterNumber);
             Console.WriteLine("Número sólo con los decimales: " + decimalNumber);
