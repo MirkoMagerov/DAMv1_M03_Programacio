@@ -16,7 +16,7 @@ namespace Project
 
             string charName;
             int actualChar;
-            double evilLevel, magicLevel, char1Magic = 0, char2Magic = 0, char3Magic = 0, char4Magic = 0;
+            double evilLevel, magicLevel, char1Magic = 0, char2Magic = 0, char3Magic = 0, char4Magic = 0, userCharEvilLevel;
             bool containsTwoVowels;
 
             do
@@ -45,6 +45,8 @@ namespace Project
             magicLevel = CalculateMagicLevel(containsTwoVowels, evilLevel, NUMBER_OF_CHARACTERS);
 
             AssignMagicToFriends(magicLevel, ref char1Magic, ref char2Magic, ref char3Magic, ref char4Magic);
+
+            userCharEvilLevel = evilLevel - magicLevel * NUMBER_OF_CHARACTERS;
         }
 
         public static bool CheckBetweenRange(int range, int MIN_RANGE, int MAX_RANGE)
