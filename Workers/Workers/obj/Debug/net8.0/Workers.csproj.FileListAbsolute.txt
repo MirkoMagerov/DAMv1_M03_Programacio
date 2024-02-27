@@ -1,0 +1,14 @@
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\bin\Debug\net8.0\Workers.exe
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\bin\Debug\net8.0\Workers.deps.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\bin\Debug\net8.0\Workers.runtimeconfig.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\bin\Debug\net8.0\Workers.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\bin\Debug\net8.0\Workers.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.GeneratedMSBuildEditorConfig.editorconfig
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.AssemblyInfoInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.AssemblyInfo.cs
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.csproj.CoreCompileInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\refint\Workers.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\Workers.genruntimeconfig.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Workers\Workers\obj\Debug\net8.0\ref\Workers.dll

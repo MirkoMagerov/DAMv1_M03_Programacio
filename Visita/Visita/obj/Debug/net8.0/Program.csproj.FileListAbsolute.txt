@@ -1,0 +1,14 @@
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\bin\Debug\net8.0\Program.exe
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\bin\Debug\net8.0\Program.deps.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\bin\Debug\net8.0\Program.runtimeconfig.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\bin\Debug\net8.0\Program.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\bin\Debug\net8.0\Program.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.AssemblyInfoInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.AssemblyInfo.cs
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.csproj.CoreCompileInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\refint\Program.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\Program.genruntimeconfig.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Visita\Visita\obj\Debug\net8.0\ref\Program.dll
