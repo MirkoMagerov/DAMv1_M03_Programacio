@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MiroslavMagerov\\preuba\\DAMv1_M03_Programacio\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj": {}
+    "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj": {}
   },
   "projects": {
-    "D:\\MiroslavMagerov\\preuba\\DAMv1_M03_Programacio\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj": {
+    "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MiroslavMagerov\\preuba\\DAMv1_M03_Programacio\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj",
+        "projectUniqueName": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj",
         "projectName": "Save the ocean",
-        "projectPath": "D:\\MiroslavMagerov\\preuba\\DAMv1_M03_Programacio\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj",
+        "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\Save the ocean\\Save the ocean\\Save the ocean\\Save the ocean.csproj",
         "packagesPath": "C:\\Users\\prof\\.nuget\\packages\\",
-        "outputPath": "D:\\MiroslavMagerov\\preuba\\DAMv1_M03_Programacio\\Save the ocean\\Save the ocean\\Save the ocean\\obj\\",
+        "outputPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\Save the ocean\\Save the ocean\\Save the ocean\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prof\\AppData\\Roaming\\NuGet\\NuGet.Config",
