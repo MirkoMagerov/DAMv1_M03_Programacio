@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestProject1
-build_property.ProjectDir = D:\MiroslavMagerov\DAMv1_M03_Programacio\ConsoleApp\TestProject1\
+build_property.ProjectDir = D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\ConsoleApp\TestProject1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

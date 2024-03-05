@@ -6,14 +6,44 @@ namespace OOP
     {
         public static void Main()
         {
-            Car car1 = new Car(0);
+            Employee employee1 = new Employee();
+            Employee employee2 = new Employee();
+            Employee employee3 = new Employee();
+            Employee employee4 = new Employee();
+            Employee employee5 = new Employee();
 
-            Console.Write("Introduce la cantidad para repostar: ");
-            int fuel = Convert.ToInt32(Console.ReadLine());
+            SalesEmployee salesEmployee1 = new SalesEmployee();
+            SalesEmployee salesEmployee2 = new SalesEmployee();
+            SalesEmployee salesEmployee3 = new SalesEmployee();
+            SalesEmployee salesEmployee4 = new SalesEmployee();
+            SalesEmployee salesEmployee5 = new SalesEmployee();
 
-            car1.Refuel(fuel);
+            List<Employee> employees = new List<Employee>();
+            employees.Add(employee1);
+            employees.Add(employee2);
+            employees.Add(employee3);
+            employees.Add(employee4);
+            employees.Add(salesEmployee5);
 
-            car1.Drive();
+            List<SalesEmployee> salesEmployees = new List<SalesEmployee>();
+            salesEmployees.Add(salesEmployee1);
+            salesEmployees.Add(salesEmployee2);
+            salesEmployees.Add(salesEmployee3);
+            salesEmployees.Add(salesEmployee4);
+            salesEmployees.Add(salesEmployee5);
+
+            employees.Sort();
+            salesEmployees.Sort();
+
+            foreach(Employee employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+
+            foreach(SalesEmployee salesEmployee in salesEmployees)
+            {
+                Console.WriteLine(salesEmployee);
+            }
         }
     }
 }

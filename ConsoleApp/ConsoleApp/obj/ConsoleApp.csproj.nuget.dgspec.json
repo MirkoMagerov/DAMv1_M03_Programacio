@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\prof\\.nuget\\packages\\",
-        "outputPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prof\\AppData\\Roaming\\NuGet\\NuGet.Config",

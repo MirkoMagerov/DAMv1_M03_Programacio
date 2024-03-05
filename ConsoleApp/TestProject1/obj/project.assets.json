@@ -1090,11 +1090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\TestProject1\\TestProject1.csproj",
+      "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\prof\\.nuget\\packages\\",
-      "outputPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\TestProject1\\obj\\",
+      "outputPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\prof\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1111,8 +1111,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
-              "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj"
+            "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+              "projectPath": "D:\\MiroslavMagerov\\DAMv1_M03_Programacio\\Repo\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj"
             }
           }
         }
