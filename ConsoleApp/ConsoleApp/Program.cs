@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace OOP
 {
@@ -6,11 +7,22 @@ namespace OOP
     {
         public static void Main()
         {
+            IDictionary<string, double> employeesValues = new Dictionary<string, double>();
+
             Employee employee1 = new Employee();
             Employee employee2 = new Employee();
             Employee employee3 = new Employee();
             Employee employee4 = new Employee();
             Employee employee5 = new Employee();
+
+            employeesValues.Add(employee1.Nom, employee1.GetAnnualSalary());
+            employeesValues.Add(employee2.Nom, employee2.GetAnnualSalary());
+            employeesValues.Add(employee3.Nom, employee3.GetAnnualSalary());
+
+            foreach(KeyValuePair<string, double> kvp in employeesValues)
+            {
+                Console.WriteLine($"EMPLEADO: {kvp.Key} | SALARIO: {kvp.Value}");
+            }
 
             SalesEmployee salesEmployee1 = new SalesEmployee();
             SalesEmployee salesEmployee2 = new SalesEmployee();
@@ -35,15 +47,58 @@ namespace OOP
             employees.Sort();
             salesEmployees.Sort();
 
-            foreach(Employee employee in employees)
-            {
-                Console.WriteLine(employee);
-            }
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            string[] strs = { "aa", "bb", "cc", "ee" };
+            Console.WriteLine(CalculateListSumNumbers(numbers));
+            Console.WriteLine();
+            List<int> evenNums = GetEvenNumbers(numbers);
+            foreach (int i in evenNums) Console.WriteLine(i);
+            List<string> strings = ConvertArrayToList(strs);
+            foreach (string str in strings) Console.WriteLine(str);
+        }
 
-            foreach(SalesEmployee salesEmployee in salesEmployees)
+        private static double CalculateListSumNumbers<T>(List<T> numbers)
+        {
+            double sum = numbers.Sum(x => Convert.ToDouble(x));
+            return sum;
+        }
+
+        private static List<T> GetEvenNumbers<T>(List<T> numbers)
+        {
+            return numbers.Where(x => Convert.ToDouble(x) % 2 == 0).ToList();
+        }
+
+        private static List<String> ConvertArrayToList(string[] array)
+        {
+            List<String> list = new List<String>();
+            foreach (string str in array)
             {
-                Console.WriteLine(salesEmployee);
+                list.Add(str);
             }
+            return list;
+        }
+
+        // 14
+        // a
+        private static bool NotSpecialChars(string str)
+        {
+            if (str == null) return false;
+            if (str.Length == 0) return false;
+
+            Regex pattern = new Regex(@"[^a-zA-Z0-9]");
+            
+            return !pattern.IsMatch(str);
+        }
+
+        // b
+        private static bool BLetterAfterA(string str)
+        {
+            if (str == null) return false;
+            if (str.Length == 0) return false;
+
+            Regex pattern = new Regex(@"[aA]|[aA][bB]");
+
+            return !pattern.IsMatch(str);
         }
     }
 }

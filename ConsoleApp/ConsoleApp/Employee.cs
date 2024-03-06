@@ -11,7 +11,7 @@ namespace OOP
         public DateTime HireDate { get; set; }
         public float MonthSalary { get; set; }
         public int Payments { get; set; }
-        public int employeeCount;
+        public static int employeeCount;
 
         public Employee(string cognom, string nom, string codi, DateTime birthDate, DateTime hireDate, float monthSalary = 1800, int payments = 18)
         {
@@ -25,7 +25,7 @@ namespace OOP
             employeeCount++;
         }
 
-        public Employee() : this("Apellido", "Nombre", "Codigo", GenerateRandomHireDate(), GenerateRandomHireDate())
+        public Employee() : this("Apellido" + employeeCount, "Nombre" + employeeCount, "Codigo" + employeeCount, GenerateRandomHireDate(), GenerateRandomHireDate())
         {
 
         }
