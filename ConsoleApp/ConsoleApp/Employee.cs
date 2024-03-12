@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace OOP
 {
@@ -11,7 +12,7 @@ namespace OOP
         public DateTime HireDate { get; set; }
         public float MonthSalary { get; set; }
         public int Payments { get; set; }
-        public static int employeeCount;
+        private static int employeeCount;
 
         public Employee(string cognom, string nom, string codi, DateTime birthDate, DateTime hireDate, float monthSalary = 1800, int payments = 18)
         {
@@ -40,16 +41,16 @@ namespace OOP
             return $"Apellido: {Cognom}, Nombre: {Nom}";
         }
 
-        public string GetAntiquity()
+        public double GetAntiquity()
         {
             DateTime today = DateTime.Today;
             TimeSpan timeSpan = today - HireDate;
-            return $"Años de antigüedad: {timeSpan.Days / 365}";
+            return timeSpan.Days / 365.25;
         }
 
         public virtual float GetAnnualSalary()
         {
-            return MonthSalary * Payments;
+            return MonthSalary * Payments + employeeCount;
         }
 
         public virtual int GetAge(DateTime birthDate)
@@ -67,22 +68,42 @@ namespace OOP
 
         public override string ToString()
         {
-            return  $"---------------------------\n" +
-                    $"          EMPLOYEE         \n" +
-                    $"---------------------------\n" +
-                    $"> Code : {Codi}\n" +
-                    $"> Last Name: {Cognom}\n" +
-                    $"> First Name: {Nom}\n" +
-                    $"> Birth Date: {BirthDate.ToShortDateString()}\n" +
-                    $"> Hire Date: {HireDate.ToShortDateString()}\n" +
-                    $"> Monthly Salary: {MonthSalary}\n" +
-                    $"> Payments: {Payments}\n";
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("---------------------------\n");
+            stringBuilder.Append("          EMPLOYEE         \n");
+            stringBuilder.Append("---------------------------\n");
+            stringBuilder.Append($"> Code : {Codi}\n");
+            stringBuilder.Append($"> Last Name: {Cognom}\n");
+            stringBuilder.Append($"> First Name: {Nom}\n");
+            stringBuilder.Append($"> Birth Date: {BirthDate.ToShortDateString()}\n");
+            stringBuilder.Append($"> Hire Date: {HireDate.ToShortDateString()}\n");
+            stringBuilder.Append($"> Monthly Salary: {MonthSalary}\n");
+            stringBuilder.Append($"> Payments: {Payments}\n");
+
+            string result = stringBuilder.ToString();
+            return result;
         }
         public int CompareTo(Employee? other)
         {
             if (other == null) return 0;
             return -this.GetAntiquity().CompareTo(other.GetAntiquity());
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private static DateTime GenerateRandomHireDate()
         {

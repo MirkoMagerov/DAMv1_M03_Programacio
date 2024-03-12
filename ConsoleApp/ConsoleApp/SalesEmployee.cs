@@ -1,4 +1,6 @@
-﻿namespace OOP
+﻿using System.Text;
+
+namespace OOP
 {
     public class SalesEmployee : Employee
     {
@@ -22,7 +24,21 @@
 
         public override string ToString()
         {
-            return base.ToString() + $"> Commission: {Commission}\n";
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("---------------------------\n");
+            stringBuilder.Append("      SALES EMPLOYEE       \n");
+            stringBuilder.Append("---------------------------\n");
+            stringBuilder.Append($"> Code : {Codi}\n");
+            stringBuilder.Append($"> Last Name: {Cognom}\n");
+            stringBuilder.Append($"> First Name: {Nom}\n");
+            stringBuilder.Append($"> Birth Date: {BirthDate.ToShortDateString()}\n");
+            stringBuilder.Append($"> Hire Date: {HireDate.ToShortDateString()}\n");
+            stringBuilder.Append($"> Monthly Salary: {MonthSalary}\n");
+            stringBuilder.Append($"> Payments: {Payments}\n");
+            stringBuilder.Append($"> Commission: {Commission}\n");
+
+            string result = stringBuilder.ToString();
+            return result;
         }
     }
 }

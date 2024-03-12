@@ -51,7 +51,8 @@
         // EX 5
         public static string GetTodayDay()
         {
-            return new DateTime().DayOfWeek.ToString();
+            DateTime dateTime = DateTime.Now;
+            return dateTime.DayOfWeek.ToString();
         }
     }
 }
