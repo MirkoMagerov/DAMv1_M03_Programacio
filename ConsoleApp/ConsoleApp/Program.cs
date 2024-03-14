@@ -7,6 +7,7 @@ namespace OOP
     {
         public static void Main()
         {
+
             DateTime dateTime = new DateTime(2023,9,12);
             IDictionary<string, double> employeesValues = new Dictionary<string, double>();
 
@@ -19,12 +20,6 @@ namespace OOP
             employeesValues.Add(employee1.Nom, employee1.GetAnnualSalary());
             employeesValues.Add(employee2.Nom, employee2.GetAnnualSalary());
             employeesValues.Add(employee3.Nom, employee3.GetAnnualSalary());
-
-            // EX 11
-            //foreach (KeyValuePair<string,double> employee in employeesValues)
-            //{
-            //    Console.WriteLine($"Nombre: {employee.Key} | Salario Anual: {employee.Value}");
-            //}
 
             SalesEmployee salesEmployee1 = new SalesEmployee();
             SalesEmployee salesEmployee2 = new SalesEmployee();
@@ -48,6 +43,12 @@ namespace OOP
 
             employees.Sort();
             salesEmployees.Sort();
+
+            // EX 11
+            //foreach (KeyValuePair<string,double> employee in employeesValues)
+            //{
+            //    Console.WriteLine($"Nombre: {employee.Key} | Salario Anual: {employee.Value}");
+            //}
 
             //foreach (Employee employee in employees)
             //{
@@ -134,7 +135,7 @@ namespace OOP
             return list;
         }
 
-        // 14
+        // EX 14
         // a
         private static bool NotSpecialChars(string str)
         {
@@ -168,7 +169,7 @@ namespace OOP
             return pattern.IsMatch(str);
         }
 
-        // d
+        // EX 15
         private static bool CheckEmailAdress(string str)
         {
             if (str == null) return false;

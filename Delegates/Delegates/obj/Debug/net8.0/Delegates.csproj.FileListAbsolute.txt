@@ -1,0 +1,15 @@
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\bin\Debug\net8.0\Delegates.exe
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\bin\Debug\net8.0\Delegates.deps.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\bin\Debug\net8.0\Delegates.runtimeconfig.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\bin\Debug\net8.0\Delegates.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\bin\Debug\net8.0\Delegates.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfoInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.AssemblyInfo.cs
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.csproj.CoreCompileInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.sourcelink.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\refint\Delegates.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\Delegates.genruntimeconfig.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Delegates\Delegates\obj\Debug\net8.0\ref\Delegates.dll

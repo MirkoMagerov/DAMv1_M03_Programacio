@@ -1,0 +1,15 @@
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\bin\Debug\net8.0\Pajarraco.exe
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\bin\Debug\net8.0\Pajarraco.deps.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\bin\Debug\net8.0\Pajarraco.runtimeconfig.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\bin\Debug\net8.0\Pajarraco.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\bin\Debug\net8.0\Pajarraco.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.GeneratedMSBuildEditorConfig.editorconfig
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.AssemblyInfoInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.AssemblyInfo.cs
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.csproj.CoreCompileInputs.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.sourcelink.json
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\refint\Pajarraco.dll
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.pdb
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\Pajarraco.genruntimeconfig.cache
+D:\MiroslavMagerov\DAMv1_M03_Programacio\Repo\Pajarraco\Pajarraco\obj\Debug\net8.0\ref\Pajarraco.dll

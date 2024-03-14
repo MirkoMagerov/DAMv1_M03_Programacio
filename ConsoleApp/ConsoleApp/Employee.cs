@@ -80,8 +80,7 @@ namespace OOP
             stringBuilder.Append($"> Monthly Salary: {MonthSalary}\n");
             stringBuilder.Append($"> Payments: {Payments}\n");
 
-            string result = stringBuilder.ToString();
-            return result;
+            return stringBuilder.ToString();
         }
         public int CompareTo(Employee? other)
         {

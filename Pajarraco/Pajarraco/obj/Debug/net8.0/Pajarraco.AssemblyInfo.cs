@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pajarraco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6614f4064cff625c0641d43adcdc2e6087858247")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ede1b084518c7827f16e6d1e458085cc182cc730")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pajarraco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pajarraco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
