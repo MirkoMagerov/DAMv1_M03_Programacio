@@ -121,7 +121,7 @@ namespace OOP
         // EX 9
         private static List<T> GetEvenNumbers<T>(List<T> numbers)
         {
-            return numbers.Where(x => Convert.ToDouble(x) % 2 == 0).ToList();
+            return numbers.Where(x => Convert.ToInt32(x) % 2 == 0).ToList();
         }
 
         // EX 10
